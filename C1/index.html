@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew & Beans — Artisanal Coffee & Bakery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Mono:wght@400;500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-coffee"></i> Brew & Beans
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home">Home</a>
+                <a href="#about">Our Story</a>
+                <a href="#best-sellers">Menu</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+                <a href="#order-online" class="btn btn-primary nav-cta-mobile">Pre-Order Now</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#order-online" class="btn btn-primary nav-cta-desktop">Pre-Order Now</a>
+            </div>
+            <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle Menu" aria-expanded="false" aria-controls="navMenu">
+                <i class="fas fa-bars" id="menuIcon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="section-subtitle">Artisanal Coffee House</span>
+                <h1 class="display-title">Roasted Local.<br>Brewed Fresh.</h1>
+                <div class="hero-cta-group">
+                    <a href="#order-online" class="btn btn-primary">Order Delivery</a>
+                    <a href="#best-sellers" class="btn btn-secondary">View Menu</a>
+                    <div class="hero-utility">
+                        <a href="tel:+919876543210" aria-label="Call for takeaway"><i class="fas fa-phone"></i></a>
+                        <a href="https://wa.me/919876543210" target="_blank" aria-label="WhatsApp order"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-images">
+<div class="hero-img-wrapper left-bowl">
+                <img src="images/Hero_section/hero-latte.jpg.svg" alt="Perfect Latte Art">
+            </div>
+            <div class="hero-img-wrapper right-bowl">
+                <img src="images/Hero_section/hero-pastries.jpg.svg" alt="Freshly Baked Pastries">
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="trust-grid">
+                <div class="trust-card">
+                    <i class="fas fa-seedling trust-icon"></i>
+                    <h3>100% Arabica Beans</h3>
+                    <p>Ethically sourced Indian single-origin estate coffee.</p>
+                </div>
+                <div class="trust-card">
+                    <i class="fas fa-cookie-bite trust-icon"></i>
+                    <h3>In-House Bakery</h3>
+                    <p>Croissants, bagels, and bakes prepared fresh every morning.</p>
+                </div>
+                <div class="trust-card">
+                    <i class="fas fa-wifi trust-icon"></i>
+                    <h3>Work Friendly</h3>
+                    <p>High-speed internet with individual power charging points.</p>
+                </div>
+                <div class="trust-card">
+                    <i class="fas fa-mug-hot trust-icon"></i>
+                    <h3>Expert Baristas</h3>
+                    <p>Precision manual brewing custom to your exact taste profile.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about-section">
+        <div class="container about-grid">
+            <div class="about-image">
+                <img src="images/About/about-roasting.jpg.svg" alt="Coffee Roasting Process">
+            </div>
+            <div class="about-content">
+                <span class="section-subtitle">Our Passion</span>
+                <h2 class="section-title">The Art & Science of Bean Extraction</h2>
+                <p>Every single cup we hand pour tells a story of dedicated farmers, careful small-batch custom roasting, and obsessive calibration. We match our intense coffees with comforting clean-label food that keeps you productive all day.</p>
+                <blockquote class="chef-quote">
+                    "We view coffee extraction as an absolute science, and hospitality as a pure art form."
+                </blockquote>
+                <div class="why-choose-us">
+                    <h4>What sets us apart</h4>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Multiple brewing options: V60 Pour Over, Aeropress, French Press</li>
+                        <li><i class="fas fa-check-circle"></i> Dairy-free milk substitutes available — Oat, Almond, Soy</li>
+                        <li><i class="fas fa-check-circle"></i> Quick curb-side pickup & fast corporate park deliveries</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Sellers -->
+    <section id="best-sellers" class="best-sellers">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-subtitle">Daily Essentials</span>
+                <h2 class="section-title">Café Favorites</h2>
+            </div>
+            <div class="dish-grid">
+                <div class="dish-card">
+                    <div class="dish-img">
+                        <img src="images/Dish/dish-cappuccino.jpg.svg" alt="Classic Cappuccino">
+                    </div>
+                    <div class="dish-info">
+                        <h3>Classic Cappuccino</h3>
+                        <p>Perfect double espresso pulled over velvety microfoam latte art layers.</p>
+                        <span class="price">₹180</span>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-img">
+                        <img src="images/Dish/dish-coldbrew.jpg.svg" alt="Cold Brew">
+                    </div>
+                    <div class="dish-info">
+                        <h3>Signature Cold Brew</h3>
+                        <p>18-hour slow steeped specialty roast served straight on block ice cubes.</p>
+                        <span class="price">₹210</span>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-img">
+                        <img src="images/Dish/dish-croissant.jpg.svg" alt="Butter Croissant">
+                    </div>
+                    <div class="dish-info">
+                        <h3>Butter Sourdough Croissant</h3>
+                        <p>Intensely layered, golden flaky French classic pastry baked fresh at sunrise.</p>
+                        <span class="price">₹160</span>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-img">
+                        <img src="images/Dish/dish-avocado-toast.jpg.svg" alt="Avocado Toast">
+                    </div>
+                    <div class="dish-info">
+                        <h3>Himalayan Avocado Toast</h3>
+                        <p>Crushed fresh seasoned avocado over house artisan sourdough bread slices.</p>
+                        <span class="price">₹290</span>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-img">
+                        <img src="images/Dish/dish-matcha-latte.jpg.svg" alt="Matcha Latte">
+                    </div>
+                    <div class="dish-info">
+                        <h3>Ceremonial Matcha Latte</h3>
+                        <p>Stone-ground organic Japanese matcha whisked smooth with silky sweet milk.</p>
+                        <span class="price">₹240</span>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <div class="dish-img">
+                        <img src="images/Dish/dish-fudge-brownie.jpg.svg" alt="Fudge Brownie">
+                    </div>
+                    <div class="dish-info">
+                        <h3>Fudge Brownie Tart</h3>
+                        <p>Rich, ultra-fudgy dark chocolate slice paired best with black filter coffee.</p>
+                        <span class="price">₹190</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-actions-box text-center">
+                <a href="menu.pdf" target="_blank" class="btn btn-secondary"><i class="fas fa-file-download"></i> Download Full Menu PDF</a>
+                <a href="#contact" class="btn btn-outline">Check Seasonal Bakes</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Online -->
+    <section id="order-online" class="order-online">
+        <div class="container text-center">
+            <span class="section-subtitle">Skip the Wait</span>
+            <h2 class="section-title">Order for Pickup or Delivery</h2>
+            <p class="order-desc">Running late? Pre-order on WhatsApp for counter pickup, or get it delivered via Zomato or Swiggy.</p>
+            <div class="order-platforms-grid">
+                <a href="https://wa.me/919876543210?text=Hi,%20I'd%20like%20to%20pre-order%20a%20coffee%20for%20pickup." target="_blank" class="platform-btn whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp Pre-Order</a>
+                <a href="https://www.zomato.com" target="_blank" class="platform-btn zomato"><i class="fas fa-utensils"></i> Order on Zomato</a>
+                <a href="https://www.swiggy.com" target="_blank" class="platform-btn swiggy"><i class="fas fa-motorcycle"></i> Order on Swiggy</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="text-center">
+                <span class="section-subtitle">Cozy Aesthetics</span>
+                <h2 class="section-title">Visit Our Cozy Corner</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="images/Gallery/gallery-interiors.jpg.svg" alt="Cafe Interiors"></div>
+                <div class="gallery-item"><img src="images/Gallery/gallery-espresso.jpg.svg" alt="Espresso Extraction"></div>
+                <div class="gallery-item"><img src="images/Gallery/gallery-people.jpg.svg" alt="People Working at Cafe"></div>
+                <div class="gallery-item"><img src="images/Gallery/gallery-pour-over.jpg.svg" alt="Pour over coffee"></div>
+                <div class="gallery-item"><img src="images/Hero_section/hero-latte.jpg.svg" alt="Perfect Latte Art"></div>
+                <div class="gallery-item"><img src="images/Gallery/gallery-beans.jpg.svg" alt="Beans Mug Setup"></div>
+            </div>
+            <div class="text-center mt-3">
+                <a href="https://instagram.com" target="_blank" class="btn btn-outline"><i class="fab fa-instagram"></i> Follow us @BrewBeans</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="reviews-section">
+        <div class="container">
+            <div class="reviews-header text-center">
+                <span class="section-subtitle">Community Notes</span>
+                <h2 class="section-title">What Café Regulars Say</h2>
+                <div class="overall-rating">
+                    <span class="rating-num">4.9</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="rating-count">Loved by 900+ remote workers & coffee purists</p>
+                </div>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="reviewer-meta">
+                        <div class="reviewer-info">
+                            <h4>Ananya Sen</h4>
+                            <span class="review-date">Verified Reviewer · 1 week ago</span>
+                        </div>
+                    </div>
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="review-text">My go-to spot for working remotely. Wi-Fi is solid, plenty of outlets, and the V60 pour over is consistently good. Staff knows my order by now.</p>
+                </div>
+                <div class="review-card">
+                    <div class="reviewer-meta">
+                        <div class="reviewer-info">
+                            <h4>Vikram Malhotra</h4>
+                            <span class="review-date">Local Guide · 3 weeks ago</span>
+                        </div>
+                    </div>
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p class="review-text">Best butter croissants around. I message on WhatsApp before leaving home and pick it up fresh at the counter. Super convenient.</p>
+                </div>
+                <div class="review-card">
+                    <div class="reviewer-meta">
+                        <div class="reviewer-info">
+                            <h4>Rohan Das</h4>
+                            <span class="review-date">Local Guide · 2 days ago</span>
+                        </div>
+                    </div>
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+                    <p class="review-text">Good vibe, decent music, and they have oat milk which is a plus. Baristas know their stuff — asked for a lighter roast and they nailed it.</p>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <a href="https://google.com" target="_blank" class="btn btn-secondary"><i class="fab fa-google"></i> Read All Google Reviews</a>
+                <a href="https://google.com" target="_blank" class="btn btn-outline"><i class="fas fa-map-marked-alt"></i> Google Business Listing</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location -->
+    <section class="location-section">
+        <div class="container location-grid">
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118943.3482708307!2d81.54716949726563!3d21.25243170000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28dda23be28229%3A0x263a24d57c7c115c!2sRaipur%2C%20Chhattisgarh!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin" 
+                    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="location-info">
+                <h3>Visit the Corner</h3>
+                <p class="address"><i class="fas fa-map-marker-alt" style="color:var(--crema); margin-right:8px;"></i>Ground Floor, Shankar Nagar Main Road, Next to Axis Bank, Raipur, Chhattisgarh 492007</p>
+                <div class="hours">
+                    <h4><i class="far fa-clock" style="margin-right:6px;"></i>Daily Cafe Timings</h4>
+                    <p>Monday – Sunday: 8:00 AM – 10:30 PM</p>
+                    <p><em>Early morning bakes start at 8 AM sharp!</em></p>
+                </div>
+                <a href="https://maps.google.com" target="_blank" class="btn btn-primary mt-2"><i class="fas fa-navigation"></i> Start Map Navigation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-grid">
+            <div class="contact-card">
+                <h3>Café Hello.</h3>
+                <p>Want to host a small meetup, check batch availability, or set up corporate takeaways?</p>
+                <div class="contact-links">
+                    <a href="tel:+919876543210"><i class="fas fa-phone-alt"></i> +91 98765 43210</a>
+                    <a href="https://wa.me/919876543210" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    <a href="mailto:hello@brewbeans.com"><i class="far fa-envelope"></i> hello@brewbeans.com</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="final-cta-card text-center">
+                <h2 class="display-title">Need a Fix?</h2>
+                <p>Fresh artisan coffee is just a message away.</p>
+                <a href="https://wa.me/919876543210" class="platform-btn whatsapp"><i class="fab fa-whatsapp"></i> Pre-Order on WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-bottom">
+            <p class="footer-logo"><i class="fas fa-coffee"></i> Brew & Beans</p>
+            <p class="footer-meta">Shankar Nagar, Raipur, CG &nbsp;·&nbsp; +91 98765 43210</p>
+            <p class="copyright">© 2026 Brew & Beans Cafe. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const toggleBtn = document.getElementById('menuToggle');
+        const navMenu   = document.getElementById('navMenu');
+        const menuIcon  = document.getElementById('menuIcon');
+
+        toggleBtn.addEventListener('click', () => {
+            const isOpen = navMenu.classList.toggle('active');
+            menuIcon.className  = isOpen ? 'fas fa-times' : 'fas fa-bars';
+            toggleBtn.setAttribute('aria-expanded', isOpen);
+        });
+
+        // Close on link tap
+        navMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                menuIcon.className = 'fas fa-bars';
+                toggleBtn.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        // Close on outside click
+        document.addEventListener('click', e => {
+            if (!navMenu.contains(e.target) && !toggleBtn.contains(e.target)) {
+                navMenu.classList.remove('active');
+                menuIcon.className = 'fas fa-bars';
+                toggleBtn.setAttribute('aria-expanded', 'false');
+            }
+        });
+    </script>
+</body>
+</html>

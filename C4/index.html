@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bean &amp; Batter — Bakery &amp; Cafe</title>
+<meta name="description" content="Bean & Batter — fresh bakes and coffee, made daily.">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- =========================================================
+     HOW TO EDIT THIS TEMPLATE
+     - All colors / fonts / spacing are set once at the top of style.css
+       inside :root { ... }. Change a value there and it updates everywhere.
+     - All photos live in /images. Replace the file with your own photo
+       but KEEP THE SAME FILE NAME so nothing breaks.
+     - Every section below is labelled with a comment.
+========================================================= -->
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar-wrap">
+  <nav class="navbar" id="navbar">
+
+    <a href="#top" class="logo">
+      <span class="logo-badge">B&amp;B</span>
+      <span class="logo-text">Bean &amp; Batter</span>
+    </a>
+
+    <!-- Desktop links -->
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#picks">Today's Picks</a></li>
+      <li><a href="#story">Our Story</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+    </ul>
+
+    <a href="#find-us" class="btn btn-dark nav-cta">Find Us</a>
+
+    <!-- Hamburger (mobile only) -->
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile dropdown menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#picks">Today's Picks</a></li>
+      <li><a href="#story">Our Story</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#find-us" class="btn btn-dark mobile-cta">Find Us</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <p class="eyebrow">Fresh from the oven, every morning</p>
+    <h1>Good bread,<br>good coffee,<br>good company.</h1>
+    <p class="hero-sub">Bean &amp; Batter is a neighbourhood bakery &amp; cafe serving
+      sourdough, pastries and slow-brewed coffee — baked fresh daily, from scratch.</p>
+    <div class="hero-actions">
+      <a href="#menu" class="btn btn-dark">See the Menu</a>
+      <a href="#find-us" class="btn btn-outline">Visit the Cafe</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="images/hero/hero-1.jpg" alt="Fresh bread and coffee at Bean & Batter">
+  </div>
+</section>
+
+<!-- ============ TODAY'S PICKS ============ -->
+<section class="picks" id="picks">
+  <p class="eyebrow eyebrow-center">Today's Picks</p>
+  <h2 class="section-title center">What's fresh right now</h2>
+
+  <div class="picks-grid">
+    <div class="pick-card">
+      <img src="images/menu/sourdough.jpg" alt="Sourdough loaf">
+      <h3>Classic Sourdough</h3>
+      <p>Naturally leavened, 24-hour ferment, baked in-house every morning.</p>
+      <span class="price">₹180</span>
+    </div>
+    <div class="pick-card">
+      <img src="images/menu/almond-croissant.jpg" alt="Almond croissant">
+      <h3>Almond Croissant</h3>
+      <p>Laminated butter dough, toasted almond flakes, a little sugar dust.</p>
+      <span class="price">₹120</span>
+    </div>
+    <div class="pick-card">
+      <img src="images/menu/cold-brew.jpg" alt="Cold brew coffee">
+      <h3>House Cold Brew</h3>
+      <p>Steeped for 18 hours, served over ice with a splash of milk.</p>
+      <span class="price">₹160</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OUR STORY ============ -->
+<section class="story" id="story">
+  <div class="story-images">
+    <img src="images/story/story.jpg" alt="Baker at work" class="story-img-main">
+    <img src="images/story/story-small.jpg" alt="Inside the cafe" class="story-img-small">
+  </div>
+  <div class="story-content">
+    <p class="eyebrow">Our Story</p>
+    <h2 class="section-title">Baked the slow way, on purpose</h2>
+    <p>Bean &amp; Batter started as a single oven and a folding table.
+      Today it's still run by the same two hands that started it —
+      we mill, ferment and bake in small batches, every single day,
+      because that's the only way we know how to do it well.</p>
+    <p>No shortcuts, no packet mixes, no rushed proofs. Just good flour,
+      good time, and a cafe that feels like your kitchen.</p>
+    <a href="#find-us" class="btn btn-dark">Visit Us</a>
+  </div>
+</section>
+
+<!-- ============ MENU ============ -->
+<section class="menu" id="menu">
+  <p class="eyebrow eyebrow-center">Menu</p>
+  <h2 class="section-title center">A little bit of everything</h2>
+
+  <div class="menu-columns">
+    <div class="menu-col">
+      <h3>Bakes</h3>
+      <div class="menu-row"><span>Classic Sourdough</span><span class="dots"></span><span>₹180</span></div>
+      <div class="menu-row"><span>Multigrain Loaf</span><span class="dots"></span><span>₹200</span></div>
+      <div class="menu-row"><span>Almond Croissant</span><span class="dots"></span><span>₹120</span></div>
+      <div class="menu-row"><span>Cinnamon Roll</span><span class="dots"></span><span>₹110</span></div>
+    </div>
+    <div class="menu-col">
+      <h3>Coffee &amp; Drinks</h3>
+      <div class="menu-row"><span>House Cold Brew</span><span class="dots"></span><span>₹160</span></div>
+      <div class="menu-row"><span>Flat White</span><span class="dots"></span><span>₹150</span></div>
+      <div class="menu-row"><span>Masala Chai</span><span class="dots"></span><span>₹90</span></div>
+      <div class="menu-row"><span>Fresh Lemonade</span><span class="dots"></span><span>₹110</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="gallery" id="gallery">
+  <p class="eyebrow eyebrow-center">Gallery</p>
+  <h2 class="section-title center">A peek inside</h2>
+
+  <div class="gallery-grid">
+    <img src="images/gallery/gallery-1.jpg" alt="Bakery interior with counter">
+    <img src="images/gallery/gallery-2.jpg" alt="Fresh sourdough bread">
+    <img src="images/gallery/gallery-3.jpg" alt="Cold brew coffee">
+    <img src="images/gallery/gallery-4.jpg" alt="Croissant and pastry">
+    <img src="images/gallery/gallery-5.jpg" alt="Bread being baked">
+    <img src="images/gallery/gallery-6.jpg" alt="Cozy cafe atmosphere">
+  </div>
+</section>
+
+<!-- ============ ORDER ONLINE ============ -->
+<section class="order-online" id="find-us">
+  <div class="order-card">
+    <p class="eyebrow">Order Online</p>
+    <h2 class="section-title">Can't make it in? We deliver.</h2>
+    <div class="order-buttons">
+      <a href="#" class="btn btn-dark btn-wide">Order on Zomato</a>
+      <a href="#" class="btn btn-outline btn-wide">Order on Swiggy</a>
+    </div>
+  </div>
+  <div class="find-card">
+    <p class="eyebrow">Find Us</p>
+    <h3>123 Baker Street, Indore</h3>
+    <p>Open daily · 8:00 AM – 9:00 PM</p>
+    <p>+91 98765 43210</p>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-top">
+    <a href="#top" class="logo">
+      <span class="logo-badge">B&amp;B</span>
+      <span class="logo-text">Bean &amp; Batter</span>
+    </a>
+    <ul class="footer-links">
+      <li><a href="#picks">Today's Picks</a></li>
+      <li><a href="#story">Our Story</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+    </ul>
+  </div>
+  <p class="footer-bottom">© 2026 Bean &amp; Batter. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

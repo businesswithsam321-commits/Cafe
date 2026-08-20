@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bloom & Brew — Neighborhood Cafe</title>
+<meta name="description" content="Bloom & Brew — a plant-filled neighborhood cafe serving slow coffee and honest food.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito+Sans:wght@400;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAVIGATION — FLOATING PILL ============ -->
+<header class="navbar-wrapper">
+  <nav class="floating-navbar">
+    <!-- Brand Logo -->
+    <a href="#top" class="nav-brand">
+      <span class="logo-icon">🌱</span>
+      <span class="brand-name">Bloom & Brew</span>
+    </a>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#visit">Visit</a></li>
+    </ul>
+
+    <!-- CTA Button -->
+    <a href="#visit" class="nav-cta">Order Ahead</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO — BLOB IMAGE + FLOATING ICONS ============ -->
+  <section class="hero">
+    <div class="hero-copy">
+      <span class="chip">Roasted in-house, daily</span>
+      <h1>Slow mornings<br>start with a<br><span class="highlight">good cup.</span></h1>
+      <p>Bloom &amp; Brew is a small plant-filled corner cafe pouring single-origin coffee,
+        fresh pastry, and second helpings of conversation.</p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">See the menu</a>
+        <a href="#visit" class="btn btn-outline">Find us</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="blob-frame">
+        <img src="images/hero/hero.jpg" alt="Latte art in a ceramic cup">
+      </div>
+      <span class="float-icon icon-leaf" style="--d:0s;">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20c9 0 15-6 16-16 0 0-2 13-16 16z"/><path d="M4 20c1-7 5-11 10-13"/></svg>
+      </span>
+      <span class="float-icon icon-steam" style="--d:1.2s;">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M9 3c0 1.5 1.4 1.7 1.4 3.2S9 8 9 9.5"/><path d="M13.5 3c0 1.5 1.4 1.7 1.4 3.2S13.5 8 13.5 9.5"/><path d="M5 20a3.5 3.5 0 013.4-4.5H17a3 3 0 100-6 4.2 4.2 0 00-7.8-1.7A4 4 0 005 12.3 3.5 3.5 0 005 20z"/></svg>
+      </span>
+      <span class="float-icon icon-bean" style="--d:.6s;">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 3.5C4.5 5 3 8.5 3 12c0 5 3.8 8.5 8.5 8.5S20 17 20 12c0-4-2-7.5-5.5-8.5-2 3-4.5 4-6.5 8-1.2 2.4-1 5 .5 6.5"/></svg>
+      </span>
+      <div class="hero-circle-deco"></div>
+    </div>
+  </section>
+
+  <svg class="wave-divider" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,64 C240,120 480,0 720,32 C960,64 1200,120 1440,48 L1440,120 L0,120 Z"></path></svg>
+
+  <!-- ============ ABOUT — WAVE TOP, CIRCLE PHOTO ============ -->
+  <section class="about" id="about">
+    <div class="about-grid">
+      <div class="about-photo">
+        <div class="circle-frame">
+          <img src="images/about/barista.jpg" alt="Barista preparing coffee behind the counter">
+        </div>
+        <div class="dashed-ring"></div>
+      </div>
+      <div class="about-copy">
+        <span class="chip chip-alt">Our story</span>
+        <h2>Started on a<br>street corner<br>in 2016.</h2>
+        <p>What began as a folding table and a hand-me-down espresso machine
+          grew into the corner spot regulars call their "third place." We still
+          roast in small batches, still know most orders before they're spoken.</p>
+        <ul class="feature-list">
+          <li><span class="dot"></span> Single-origin beans, rotated monthly</li>
+          <li><span class="dot"></span> Oat, almond &amp; whole milk always on hand</li>
+          <li><span class="dot"></span> Pastries baked fresh every morning</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MENU — ZIGZAG ROWS ============ -->
+  <section class="menu" id="menu">
+    <div class="menu-head">
+      <span class="chip">What we're pouring</span>
+      <h2>The menu</h2>
+    </div>
+
+    <div class="menu-zigzag">
+
+      <div class="menu-row row-right">
+        <div class="menu-row-img"><img src="images/menu/espresso.jpg" alt="Espresso shot"></div>
+        <div class="menu-row-list">
+          <h3>Coffee</h3>
+          <div class="m-item"><span class="m-name">House Espresso</span><span class="m-dots"></span><span class="m-price">$3.50</span></div>
+          <div class="m-item"><span class="m-name">Oat Milk Latte</span><span class="m-dots"></span><span class="m-price">$5.00</span></div>
+          <div class="m-item"><span class="m-name">Pour Over, Single Origin</span><span class="m-dots"></span><span class="m-price">$5.50</span></div>
+          <div class="m-item"><span class="m-name">Iced Cold Brew</span><span class="m-dots"></span><span class="m-price">$4.75</span></div>
+        </div>
+      </div>
+
+      <div class="menu-row row-left">
+        <div class="menu-row-list">
+          <h3>Pastry</h3>
+          <div class="m-item"><span class="m-name">Almond Croissant</span><span class="m-dots"></span><span class="m-price">$4.50</span></div>
+          <div class="m-item"><span class="m-name">Morning Bun</span><span class="m-dots"></span><span class="m-price">$4.00</span></div>
+          <div class="m-item"><span class="m-name">Banana Walnut Loaf</span><span class="m-dots"></span><span class="m-price">$4.25</span></div>
+          <div class="m-item"><span class="m-name">Seasonal Fruit Tart</span><span class="m-dots"></span><span class="m-price">$5.25</span></div>
+        </div>
+        <div class="menu-row-img"><img src="images/menu/croissants.jpg" alt="Fresh croissants"></div>
+      </div>
+
+      <div class="menu-row row-right">
+        <div class="menu-row-img"><img src="images/menu/avocado.jpg" alt="Avocado toast plate"></div>
+        <div class="menu-row-list">
+          <h3>Light Bites</h3>
+          <div class="m-item"><span class="m-name">Avocado Toast</span><span class="m-dots"></span><span class="m-price">$9.50</span></div>
+          <div class="m-item"><span class="m-name">Egg &amp; Herb Sandwich</span><span class="m-dots"></span><span class="m-price">$8.75</span></div>
+          <div class="m-item"><span class="m-name">Yogurt, Honey &amp; Granola</span><span class="m-dots"></span><span class="m-price">$7.00</span></div>
+          <div class="m-item"><span class="m-name">Soup of the Day</span><span class="m-dots"></span><span class="m-price">$6.50</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <svg class="wave-divider flip" viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,64 C240,120 480,0 720,32 C960,64 1200,120 1440,48 L1440,120 L0,120 Z"></path></svg>
+
+  <!-- ============ GALLERY — SCATTERED POLAROIDS ============ -->
+  <section class="gallery" id="gallery">
+    <div class="menu-head">
+      <span class="chip chip-alt">A peek inside</span>
+      <h2>The corner we call home</h2>
+    </div>
+    <div class="polaroid-field">
+      <figure class="polaroid p1"><img src="images/gallery/interior.jpg" alt="Cafe interior seating"><figcaption>Window seats</figcaption></figure>
+      <figure class="polaroid p2"><img src="images/gallery/coffee-beans.jpg" alt="Coffee beans close up"><figcaption>Fresh roast</figcaption></figure>
+      <figure class="polaroid p3"><img src="images/gallery/coffee-cup.jpg" alt="Coffee cup on wooden table"><figcaption>Slow mornings</figcaption></figure>
+      <figure class="polaroid p4"><img src="images/gallery/cafe-counter.jpg" alt="Cafe counter with plants"><figcaption>Our counter</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- ============ QUOTE — BLOB BACKGROUND ============ -->
+  <section class="quote">
+    <div class="quote-blob">
+      <p>"The kind of cafe where the barista learns your order by your second visit —
+        and somehow that never stops feeling special."</p>
+      <span>— Local Eater's Guide</span>
+    </div>
+  </section>
+
+  <!-- ============ VISIT — SPLIT WAVE CARD ============ -->
+  <section class="visit" id="visit">
+<div class="visit-card">
+      <div class="visit-info">
+        <span class="chip">Come say hi</span>
+        <h2>Visit Bloom & Brew</h2>
+        <ul class="info-list">
+          <li><strong>Address</strong><span>212 Maple Street, Riverside</span></li>
+          <li><strong>Hours</strong><span>Mon–Fri 7am–5pm · Sat–Sun 8am–4pm</span></li>
+          <li><strong>Phone</strong><span><a href="tel:+15559876543">(555) 987-6543</a></span></li>
+<li><strong>Email</strong><span><a href="mailto:hello@bloomandbrew.cafe">hello@bloomandbrew.cafe</a></span></li>
+        </ul>
+      </div>
+      <div class="visit-map">
+        <iframe
+          src="https://www.google.com/maps?q=212+Maple+Street,+Riverside&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <svg class="wave-divider footer-wave" viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,50 C360,100 1080,0 1440,50 L1440,100 L0,100 Z"></path></svg>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="logo-blob">🌿</span>
+      <span class="logo-text">Bloom &amp; Brew</span>
+    </div>
+    <div class="footer-social">
+      <a href="#" aria-label="Instagram">Instagram</a>
+      <a href="#" aria-label="Facebook">Facebook</a>
+      <a href="#" aria-label="TikTok">TikTok</a>
+    </div>
+    <p class="footer-copy">&copy; 2026 Bloom &amp; Brew Cafe</p>
+  </div>
+</footer>
+
+</body>
+</html>

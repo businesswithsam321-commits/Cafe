@@ -1,0 +1,73 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="outBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdfbf7"/>
+      <stop offset="100%" style="stop-color:#e6d9c9"/>
+    </linearGradient>
+    <linearGradient id="woodGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5d422e"/>
+      <stop offset="100%" style="stop-color:#3d2b1f"/>
+    </linearGradient>
+    <radialGradient id="sunGrad" cx="82%" cy="12%" r="42%">
+      <stop offset="0%" style="stop-color:#c9956b" stop-opacity="0.35"/>
+      <stop offset="100%" style="stop-color:#c9956b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="500" height="500" fill="url(#outBg)"/>
+  <ellipse cx="410" cy="60" rx="150" ry="80" fill="url(#sunGrad)"/>
+
+  <!-- Awning frame + striped canopy -->
+  <rect x="70" y="40" width="360" height="14" rx="4" fill="#2e1a0e"/>
+  <rect x="80" y="54" width="340" height="60" fill="#c9956b"/>
+  <g fill="#f5f0e8">
+    <rect x="80" y="54" width="34" height="60"/>
+    <rect x="148" y="54" width="34" height="60"/>
+    <rect x="216" y="54" width="34" height="60"/>
+    <rect x="284" y="54" width="34" height="60"/>
+    <rect x="352" y="54" width="34" height="60"/>
+  </g>
+  <rect x="80" y="54" width="340" height="60" fill="none" stroke="#2e1a0e" stroke-width="3"/>
+  <path d="M90 114 L74 130 L106 130 Z" fill="#2e1a0e"/>
+  <path d="M240 114 L224 130 L256 130 Z" fill="#2e1a0e"/>
+  <path d="M390 114 L374 130 L406 130 Z" fill="#2e1a0e"/>
+
+  <!-- Ground shadow -->
+  <ellipse cx="250" cy="330" rx="150" ry="22" fill="#2e1a0e" opacity="0.08"/>
+
+  <!-- Bistro table -->
+  <ellipse cx="250" cy="228" rx="88" ry="14" fill="#d9c4a8" stroke="#3d2b1f" stroke-width="3"/>
+  <rect x="243" y="228" width="14" height="96" fill="url(#woodGrad)"/>
+  <ellipse cx="250" cy="326" rx="52" ry="9" fill="#3d2b1f"/>
+
+  <!-- Coffee cup on table -->
+  <ellipse cx="250" cy="220" rx="22" ry="6" fill="#d9c4a8" stroke="#3d2b1f" stroke-width="2"/>
+  <rect x="237" y="198" width="26" height="20" rx="3" fill="#fdfbf7" stroke="#3d2b1f" stroke-width="2"/>
+  <path d="M263 202 Q276 202 276 210 Q276 218 263 218" fill="none" stroke="#3d2b1f" stroke-width="2"/>
+  <ellipse cx="250" cy="199" rx="13" ry="4" fill="#c9956b" opacity="0.5"/>
+  <path d="M246 200 L250 209 L254 200 Z" fill="#7c4b2a"/>
+
+  <!-- Left chair -->
+  <rect x="88" y="230" width="6" height="58" rx="2" fill="url(#woodGrad)"/>
+  <rect x="84" y="254" width="34" height="8" rx="3" fill="url(#woodGrad)"/>
+  <rect x="88" y="262" width="6" height="58" fill="#3d2b1f"/>
+  <rect x="108" y="262" width="6" height="58" fill="#3d2b1f"/>
+
+  <!-- Right chair -->
+  <rect x="406" y="230" width="6" height="58" rx="2" fill="url(#woodGrad)"/>
+  <rect x="382" y="254" width="34" height="8" rx="3" fill="url(#woodGrad)"/>
+  <rect x="406" y="262" width="6" height="58" fill="#3d2b1f"/>
+  <rect x="386" y="262" width="6" height="58" fill="#3d2b1f"/>
+
+  <!-- Potted plant left -->
+  <rect x="46" y="382" width="52" height="10" rx="2" fill="#3d2b1f"/>
+  <rect x="52" y="332" width="40" height="50" rx="4" fill="#7c4b2a"/>
+  <path d="M72 332 Q60 302 52 292 M72 332 Q72 298 74 288 M72 332 Q84 302 92 292" stroke="#3d2b1f" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M72 332 Q60 302 52 292 M72 332 Q72 298 74 288 M72 332 Q84 302 92 292" stroke="#4a7c3a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Potted plant right -->
+  <rect x="402" y="382" width="52" height="10" rx="2" fill="#3d2b1f"/>
+  <rect x="408" y="332" width="40" height="50" rx="4" fill="#7c4b2a"/>
+  <path d="M428 332 Q416 302 408 292 M428 332 Q428 298 430 288 M428 332 Q440 302 448 292" stroke="#3d2b1f" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M428 332 Q416 302 408 292 M428 332 Q428 298 430 288 M428 332 Q440 302 448 292" stroke="#4a7c3a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</svg>

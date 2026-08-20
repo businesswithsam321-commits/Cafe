@@ -1,0 +1,31 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cbBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1208"/>
+      <stop offset="50%" style="stop-color:#2e1a0e"/>
+      <stop offset="100%" style="stop-color:#3d2b1f"/>
+    </linearGradient>
+    <radialGradient id="iceGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#f5f0e8" stop-opacity="0.9"/>
+      <stop offset="100%" style="stop-color:#e8ddd0" stop-opacity="0.7"/>
+    </radialGradient>
+    <linearGradient id="liquidGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a3425"/>
+      <stop offset="100%" style="stop-color:#1a1208"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="#f5f0e8"/>
+  <path d="M150 450 L180 100 Q250 60 320 100 L350 450 Z" fill="url(#liquidGrad)"/>
+  <ellipse cx="250" cy="110" rx="85" ry="15" fill="#3d2b1f"/>
+  <ellipse cx="250" cy="105" rx="80" ry="12" fill="url(#liquidGrad)"/>
+  <g fill="url(#iceGrad)" stroke="#d4a573" stroke-width="1">
+    <ellipse cx="200" cy="200" rx="28" ry="22" transform="rotate(15 200 200)"/>
+    <ellipse cx="250" cy="180" rx="30" ry="24" transform="rotate(-10 250 180)"/>
+    <ellipse cx="300" cy="210" rx="26" ry="20" transform="rotate(5 300 210)"/>
+    <ellipse cx="220" cy="280" rx="25" ry="19" transform="rotate(-15 220 280)"/>
+    <ellipse cx="280" cy="290" rx="28" ry="22" transform="rotate(12 280 290)"/>
+    <ellipse cx="250" cy="350" rx="24" ry="18" transform="rotate(-5 250 350)"/>
+  </g>
+  <ellipse cx="250" cy="460" rx="100" ry="12" fill="#1a1208" opacity="0.15"/>
+  <path d="M320 200 Q360 180 370 140" fill="none" stroke="#5d422e" stroke-width="5" stroke-linecap="round" opacity="0.4"/>
+</svg>

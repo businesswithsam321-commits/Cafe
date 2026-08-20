@@ -1,0 +1,30 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="toastBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f0e8"/>
+      <stop offset="100%" style="stop-color:#e8ddd0"/>
+    </linearGradient>
+    <linearGradient id="breadGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c9956b"/>
+      <stop offset="50%" style="stop-color:#a6784f"/>
+      <stop offset="100%" style="stop-color:#7c4b2a"/>
+    </linearGradient>
+    <linearGradient id="avoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b8e23"/>
+      <stop offset="50%" style="stop-color:#5a7a1e"/>
+      <stop offset="100%" style="stop-color:#4a6a1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#toastBg)"/>
+  <path d="M100 380 L100 180 Q250 140 400 180 L400 380 Q250 420 100 380" fill="url(#breadGrad)"/>
+  <path d="M120 190 Q250 160 380 190" fill="url(#avoGrad)"/>
+  <path d="M120 210 Q250 185 380 210" fill="url(#avoGrad)" opacity="0.8"/>
+  <ellipse cx="200" cy="230" rx="35" ry="12" fill="#5a7a1e" opacity="0.6"/>
+  <ellipse cx="300" cy="225" rx="30" ry="10" fill="#5a7a1e" opacity="0.6"/>
+  <ellipse cx="250" cy="260" rx="40" ry="14" fill="#5a7a1e" opacity="0.5"/>
+  <circle cx="200" cy="230" r="4" fill="#c9956b" opacity="0.7"/>
+  <circle cx="300" cy="225" r="3" fill="#c9956b" opacity="0.7"/>
+  <circle cx="280" cy="260" r="4" fill="#c9956b" opacity="0.7"/>
+  <circle cx="220" cy="260" r="3" fill="#c9956b" opacity="0.7"/>
+  <ellipse cx="250" cy="420" rx="120" ry="12" fill="#1a1208" opacity="0.1"/>
+</svg>

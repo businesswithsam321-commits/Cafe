@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketch Cafe - 2D Optical Illusion Dining</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Offer Banner -->
+    <div class="offer-banner">
+        ✏️ Step into the drawing! Order via WhatsApp for a 15% flat discount! Code: <strong>SKETCH15</strong>
+    </div>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Sketch Cafe</a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#order-online" class="btn btn-nav-order">Order Now</a>
+            </div>
+            <button class="mobile-toggle" id="menuToggle" aria-label="Open Menu" aria-expanded="false" aria-controls="navMenu">
+                <i class="fas fa-bars" id="menuIcon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h1 class="hero-title">Sketch Cafe</h1>
+                <p class="hero-slogan">Step into a living comic book. Exquisite plates served inside a hand-drawn 2D optical illusion world.</p>
+                <div class="hero-cta-group">
+                    <a href="#order-online" class="btn btn-accent"><i class="fas fa-shopping-bag"></i> Order Now</a>
+                    <a href="tel:+919876543210" class="btn btn-outline"><i class="fas fa-phone-alt"></i> Call Now</a>
+                    <a href="menu.pdf" target="_blank" class="btn btn-outline"><i class="far fa-file-pdf"></i> View Menu PDF</a>
+                </div>
+            </div>
+            <div class="hero-image-box">
+                <img src="images/hero/hero-coffee.jpg" alt="2D outlined graphic coffee setup at Sketch Cafe">
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container trust-grid">
+            <div class="trust-card">
+                <i class="fas fa-leaf"></i>
+                <h3>Fresh Ingredients</h3>
+                <p>Real fresh food contrast against our hand-drawn universe.</p>
+            </div>
+            <div class="trust-card">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>Fast Delivery</h3>
+                <p>Lightning delivery straight from our sketchboards to you.</p>
+            </div>
+            <div class="trust-card">
+                <i class="fas fa-user-tie"></i>
+                <h3>Experienced Chefs</h3>
+                <p>Master artists blending visual magic with authentic taste.</p>
+            </div>
+            <div class="trust-card">
+                <i class="fas fa-star"></i>
+                <h3>Top Rated</h3>
+                <p>The city's favourite illustrative cafe experience.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Best Sellers -->
+    <section id="best-sellers" class="best-sellers">
+        <div class="container">
+            <h2 class="section-heading text-center">Our Best Sellers</h2>
+            <p class="section-subtext text-center">Edible fine art favorites crafted daily</p>
+            <div class="dishes-grid">
+                <div class="dish-card">
+                    <img src="images/best-sellers/signature-bowl.jpg" alt="Crunch Bowl">
+                    <div class="dish-info">
+                        <h3>2D Signature Bowl</h3>
+                        <p>Crisp avocado layers, fresh vibrant greens, toasted house mix, tossed in raw zesty dressing.</p>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <img src="images/best-sellers/comic-crust-pizza.jpg" alt="Pizza">
+                    <div class="dish-info">
+                        <h3>Comic Crust Pizza</h3>
+                        <p>Wild hand-plucked mushrooms, buffalo mozzarella cheese, rich balsamic glaze lines.</p>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <img src="images/best-sellers/ink-drip-hotcakes.jpg" alt="Pancakes">
+                    <div class="dish-info">
+                        <h3>Ink Drip Hotcakes</h3>
+                        <p>Fluffy buttermilk stack, drenched with wild forest berries and maple syrup.</p>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <img src="images/best-sellers/outline-pesto-pasta.jpg" alt="Pasta">
+                    <div class="dish-info">
+                        <h3>Outline Pesto Pasta</h3>
+                        <p>Al dente flat noodles folded into vibrant green basil pesto and crisp dried tomatoes.</p>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <img src="images/best-sellers/crosshatch-skewers.jpg" alt="Skewers">
+                    <div class="dish-info">
+                        <h3>Crosshatch Skewers</h3>
+                        <p>Tender charred flame grills glazed with house sweet smoky infusion mix.</p>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <img src="images/best-sellers/monochrome-espresso.jpg" alt="Latte">
+                    <div class="dish-info">
+                        <h3>Monochrome Espresso</h3>
+                        <p>Our strong house blend roasted dark with a velvety smooth vanilla cream topper.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2 class="section-heading text-center">Our Menu</h2>
+            <p class="section-subtext text-center">Explore our full selection of hand-crafted 2D delicacies</p>
+            <div class="menu-categories">
+                <div class="menu-category">
+                    <div class="menu-category-icon"><i class="fas fa-coffee"></i></div>
+                    <h3>Coffee & Drinks</h3>
+                    <p>Specialty brews, cold brews, and illustrated lattes</p>
+                </div>
+                <div class="menu-category">
+                    <div class="menu-category-icon"><i class="fas fa-pizza-slice"></i></div>
+                    <h3>Pizza & Mains</h3>
+                    <p>Comic-crust pizzas, hand-drawn pastas, and sketched skewers</p>
+                </div>
+                <div class="menu-category">
+                    <div class="menu-category-icon"><i class="fas fa-bowl-food"></i></div>
+                    <h3>Bowls & Salads</h3>
+                    <p>Fresh 2D bowls, vibrant greens, and crosshatch grains</p>
+                </div>
+                <div class="menu-category">
+                    <div class="menu-category-icon"><i class="fas fa-ice-cream"></i></div>
+                    <h3>Desserts</h3>
+                    <p>Ink-drip pancakes, monochrome cakes, and illustrated sweets</p>
+                </div>
+            </div>
+            <div class="menu-action-buttons text-center">
+                <a href="menu.pdf" target="_blank" class="btn btn-accent"><i class="far fa-file-pdf"></i> View Full Menu PDF</a>
+                <a href="#best-sellers" class="btn btn-outline">View Featured Options</a>
+            </div>
+        </div>
+    </section>
+
+<!-- Order Online -->
+    <section id="order-online" class="order-online">
+        <div class="container text-center">
+            <h2 class="section-heading">Order Your Comic Feast</h2>
+            <p class="section-subtext">Quick native link pathways directly to our order processing desks</p>
+            <div class="platform-buttons-grid">
+                <a href="https://www.zomato.com/bangalore/sketch-cafe-indiranagar" target="_blank" class="platform-btn zomato"><i class="fas fa-utensils"></i> Order on Zomato</a>
+                <a href="https://www.swiggy.com/restaurants/sketch-cafe-indiranagar-bangalore" target="_blank" class="platform-btn swiggy"><i class="fas fa-motorcycle"></i> Order on Swiggy</a>
+                <a href="https://wa.me/919876543210?text=I%20want%20to%20order%20from%20Sketch%20Cafe" target="_blank" class="platform-btn whatsapp"><i class="fab fa-whatsapp"></i> Order on WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+<!-- About -->
+    <section id="about" class="about-section">
+        <div class="container about-grid">
+            <div class="about-image-side">
+                <img src="images/about/chef.jpg" alt="Chef Arjun Patel at Sketch Cafe">
+            </div>
+            <div class="about-text-side">
+                <span class="badge">Our Comic Story</span>
+                <h2 class="section-heading">Where Real Food Meets 2D Illustration</h2>
+                <p>Founded in 2021 by Chef Arjun Patel and illustrator Maya Rao, Sketch Cafe began as a passion project in a 400-sq-ft corner of Indiranagar. What started as weekend pop-ups serving hand-drawn menu boards quickly became Bangalore's most Instagrammable dining destination. Our signature 2D optical illusion interior — custom-painted tables, chairs, and walls with thick black ink borders — turns every meal into a living comic panel. We're known for our Comic Crust Pizza (wild mushrooms, buffalo mozzarella, balsamic glaze) and Ink Drip Hotcakes (buttermilk stack, forest berries, maple). Every dish is plated to pop against the monochrome surroundings, because we believe food should look as extraordinary as it tastes.</p>
+                <h3 class="subsection-title">Why customers choose us:</h3>
+                <ul class="why-list">
+                    <li><i class="fas fa-marker"></i> Mind-bending 2D photo opportunities inside our real space.</li>
+                    <li><i class="fas fa-marker"></i> Premium culinary standard menu items prepared freshly.</li>
+                    <li><i class="fas fa-marker"></i> High-conversion ordering support across all platforms.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-heading text-center">The Cartoon Gallery</h2>
+            <p class="section-subtext text-center">Take a glance inside our optical illusion escape room</p>
+            <div class="gallery-masonry">
+                <div class="gallery-item"><img src="images/gallery/gallery-1.jpg" alt="Gallery"></div>
+                <div class="gallery-item"><img src="images/gallery/gallery-2.jpg" alt="Gallery"></div>
+                <div class="gallery-item"><img src="images/gallery/gallery-3.jpg" alt="Gallery"></div>
+                <div class="gallery-item"><img src="images/gallery/gallery-4.jpg" alt="Gallery"></div>
+                <div class="gallery-item"><img src="images/gallery/gallery-5.jpg" alt="Gallery"></div>
+                <div class="gallery-item"><img src="images/gallery/gallery-6.jpg" alt="Gallery"></div>
+            </div>
+            <div class="instagram-feed-banner text-center">
+                <p><i class="fab fa-instagram"></i> Tag us to get featured in the panels! <a href="https://instagram.com" target="_blank">@SketchCafe2D</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="reviews-section">
+        <div class="container">
+            <div class="reviews-summary text-center">
+                <h2 class="section-heading">Guest Review Highlights</h2>
+                <div class="rating-badge-row">
+                    <span class="rating-number">4.9</span>
+                    <div class="stars-row">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <span class="rating-count">(980+ Real Reviews)</span>
+                </div>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="reviewer-meta">
+                        <div class="reviewer-initials">RN</div>
+                        <div>
+                            <h4>Rohan Nair</h4>
+                            <span class="review-date">Reviewed yesterday</span>
+                        </div>
+                    </div>
+                    <div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Literally feels like stepping inside a piece of graphic novel paper art. Food looks hyper-colored against the white/black tables!"</p>
+                </div>
+                <div class="review-card">
+                    <div class="reviewer-meta">
+                        <div class="reviewer-initials">SM</div>
+                        <div>
+                            <h4>Sita Mehta</h4>
+                            <span class="review-date">Reviewed 1 week ago</span>
+                        </div>
+                    </div>
+                    <div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Amazing concept! The WhatsApp ordering was smooth and fast. The Truffle Pizza is a masterpiece."</p>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <a href="https://google.com" target="_blank" class="btn btn-outline"><i class="fab fa-google"></i> Write a Google Review</a>
+                <a href="https://google.com" target="_blank" class="btn btn-outline"><i class="fas fa-map-marker-alt"></i> Google Business Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location -->
+    <section class="location-section">
+        <div class="container location-grid">
+            <div class="map-box">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.234567890123!2d77.6389!3d12.9716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c5c5c5c5%3A0x5c5c5c5c5c5c5c5c!2sSketch%20Cafe%2C%20100%20Feet%20Road%2C%20Indiranagar%2C%20Bengaluru!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="location-details-box">
+                <h2 class="section-heading">Find the 2D Coordinates</h2>
+                <div class="contact-detail-row">
+                    <i class="fas fa-map-pin"></i>
+                    <div>
+                        <h4>Address</h4>
+                        <p>100 Feet Road, Indiranagar, Bengaluru, Karnataka 560038</p>
+                    </div>
+                </div>
+                <div class="contact-detail-row">
+                    <i class="fas fa-phone-alt"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91 98765 43210</p>
+                    </div>
+                </div>
+                <div class="contact-detail-row">
+                    <i class="far fa-clock"></i>
+                    <div>
+                        <h4>Opening Hours</h4>
+                        <p>Everyday: 11:00 AM – 11:00 PM</p>
+                    </div>
+                </div>
+                <a href="https://maps.app.goo.gl/sketchcafeindiranagar" target="_blank" class="btn btn-accent mt-2"><i class="fas fa-location-arrow"></i> Open Google Maps</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Directory -->
+    <section id="contact" class="contact-directory">
+        <div class="container">
+            <h2 class="section-heading text-center">Direct Connection Directory</h2>
+            <div class="directory-grid">
+                <a href="tel:+919876543210" class="directory-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h4>Phone Line</h4>
+                    <p>+91 98765 43210</p>
+                </a>
+                <a href="https://wa.me/919876543210" target="_blank" class="directory-card">
+                    <i class="fab fa-whatsapp"></i>
+                    <h4>WhatsApp</h4>
+                    <p>Chat with us</p>
+                </a>
+                <a href="mailto:hello@sketchcafe.in" class="directory-card">
+                    <i class="far fa-envelope"></i>
+                    <h4>Email Hub</h4>
+                    <p>hello@sketchcafe.in</p>
+                </a>
+                <a href="https://instagram.com/sketchcafe2d" target="_blank" class="directory-card">
+                    <i class="fab fa-instagram"></i>
+                    <h4>Instagram</h4>
+                    <p>@SketchCafe2D</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h3>Sketch Cafe</h3>
+                <p>The Original 2D Optical Illusion Dining Experience.</p>
+            </div>
+            <div class="footer-contact">
+                <p>100 Feet Road, Indiranagar, Bengaluru 560038</p>
+                <p>Hotline: +91 98765 43210</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://facebook.com/sketchcafe2d" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com/sketchcafe2d" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Sketch Cafe. Built to Convert.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <div class="floating-triggers">
+        <a href="tel:+919876543210" class="float-btn float-call" aria-label="Call"><i class="fas fa-phone-alt"></i></a>
+        <a href="https://wa.me/919876543210" target="_blank" class="float-btn float-wa" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu   = document.getElementById('navMenu');
+        const menuIcon  = document.getElementById('menuIcon');
+
+        menuToggle.addEventListener('click', () => {
+            const isOpen = navMenu.classList.toggle('active');
+            menuIcon.className = isOpen ? 'fas fa-times' : 'fas fa-bars';
+            menuToggle.setAttribute('aria-expanded', isOpen);
+        });
+
+        // Close on link click
+        navMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                menuIcon.className = 'fas fa-bars';
+                menuToggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        // Close on outside click
+        document.addEventListener('click', e => {
+            if (!navMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+                navMenu.classList.remove('active');
+                menuIcon.className = 'fas fa-bars';
+                menuToggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+    </script>
+</body>
+</html>

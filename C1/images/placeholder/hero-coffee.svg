@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <rect fill="#f5f0e8" width="600" height="600"/>
+  <rect fill="#e8dfd4" x="120" y="100" width="360" height="400" rx="8"/>
+  <ellipse fill="#2e1a0e" cx="300" cy="180" rx="140" ry="20"/>
+  <path fill="#3d2514" d="M180 180 Q180 320 260 380 L340 380 Q420 320 420 180"/>
+  <ellipse fill="#c9956b" cx="300" cy="165" rx="100" ry="15"/>
+  <ellipse fill="#d4a57a" cx="300" cy="160" rx="80" ry="12"/>
+  <path fill="#e8c59a" d="M250 155 Q300 140 350 155 Q300 165 250 155" opacity="0.6"/>
+  <text x="300" y="520" font-family="system-ui" font-size="24" fill="#7a6a5a" text-anchor="middle">Hero Coffee — Replace with Product Shot</text>
+</svg>
